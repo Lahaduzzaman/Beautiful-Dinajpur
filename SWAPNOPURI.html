@@ -1,0 +1,337 @@
+<html>
+
+<head>
+
+  <link rel="icon" href="img/edee.png" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      height: 500px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* Caption text */
+    .text {
+      color: #00F;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+
+
+
+
+    table {
+      width: 100%;
+    }
+
+    table,
+    th,
+    td {
+      border: 0px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+    #t01 tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #999;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Historical place</a>
+      <div href="#" class="dropdown-content">
+        <a href="RAMSAGAR.html">RAMSAGAR</a>
+        <a href="KANTAJI.html">KANTAJI TEMPLE</a>
+        <a href="SWAPNOPURI.html">SWAPNOPURI</a>
+        <a href="RAJBARI.html">RAJBARI & SUKH SAGAR</a>
+        <a href="HSTU.html">HSTU</a>
+        <a href="MEDICAL.html">DINAJPUR MEDICAL COLLEGE</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Popular Food</a>
+      <div href="#" class="dropdown-content">
+        <a href="Lichu.html">Lichu</a>
+        <a href="Rice.html">Rice</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <!--<li><img src="img/edee.png" height="50 px" width="auto"></li>-->
+
+  </ul>
+  <br>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/Swapnopuri/Swapnopuri1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Swapnopuri/Swapnopuri2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Swapnopuri/Swapnopuri3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Swapnopuri/Swapnopuri4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Swapnopuri/Swapnopuri5.jpg" style="width:100%">
+    </div>
+
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <br>
+
+
+
+
+  <br>
+  <table>
+    <tr>
+      <th colspan="3">
+        <h2>স্বপ্নপুরী</h2>
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p align="justify">
+          স্বপ্নপুরী রংপুর বিভাগের দিনাজপুর জেলার নবাবগঞ্জ উপজেলার আফতাবগঞ্জে অবস্থিত। যা উপজেলা সদর থেকে ১৫ কি:মি:
+          উত্তর দিকে ৯ নং কুশদহ ইউনিয়ন পরিষদের অধীন খালিপপুর মৌজার মধ্যে পরে ।
+          <br><br>
+          কুশদহ ইউনিয়নের চেয়ারম্যান জনাব মো: দেলওয়ার হোসেন তার অক্লান্ত শ্রম ও অর্থের বিনিময়ে ১৯৮৯ সালে[২]
+          স্বপ্নপুরীর কাজ শুরু করেন। বর্তমানে দিনাজপুর ৬ আসনের জাতীয় সংসদ সদস্য মো: শিবলি সাদিক এম. পি'র অধীনে এটি চালু
+          আছে।
+          <br><br>
+          এখানে বিভিন্ন রাইডস, চিড়িয়াখানা, রেস্ট হাউজ, বাগান, হ্রদ, বিশ্বের বিভিন্ন প্রজাতির মাছ , 'রংধনু' আর্ট
+          গ্যালারি, 'মহা মায়া ইন্দ্রজাল' নামে জাদুর গ্যালারী এবং কেন্দ্রীয় পিকনিকের একটি কেন্দ্র আছে। ভি,আই,পি, রেস্ট
+          হাউস ১০টি, মধ্যম শ্রেণীর ১৪ টি এবং অন্যান্য ০৮ টি রেষ্ট হাউস নির্মাণ করা হয়েছে। বর্তমানে আরও রেষ্ট হাউস
+          নির্মাণসহ স্বপ্নপুরীর উন্নয়নের কাজ চলছে। কেবলকার, ঘোড়ারগাড়ী, চিড়িয়াখানা, কৃত্রিম চিড়িয়াখানা, কৃত্রিম
+          মস্য জগত , রেষ্টুরেন্ট আছে। এখানে কৃত্রিম মাছ এবং বিভিন্ন প্রাণীদের সঙ্গে, বিশ্বকে খুঁজে পেতে পারেন। বিনোদনের
+          জন্য রয়েছে ছোট অনেক রাইডস। কৃত্রিম লেকে স্পিডবোটে চড়ে নিতে পারেন দুরন্ত অভিজ্ঞতা। প্রাণিজগতের, এমি, মোরাল,
+          ডাইনোসর, কাব্যপ্রতিভা এবং অনেক অন্যান্য প্রাণীর মতো কিছু প্রাণীর কৃত্রিম মূর্তিও রয়েছে। ভাস্কর্য এবং
+          চিত্রকলার বিভিন্ন ধরনের জন্য 'রংধনু' আর্ট গ্যালারি,. 'মহা মায়া ইন্দ্রজাল' এ, জাদু উপভোগ করতে পারেন। বিভিন্ন
+          ধরনের প্রাণী দ্বারা চিড়িয়াখানা পূর্ণ । কেউ পরিবার সহ কৃত্রিম প্রাকৃতিক সৌন্দর্য এবং কার্যক্রম এই পর্যবেক্ষক
+          সঙ্গে তার পুরো দিনে ভোগ করতে পারেন। এখানে প্রতি বছর প্রচুর দর্শক আসে।
+          <br><br>
+
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <table bgcolor="#CCCCCC">
+    <tr>
+
+      <td colspan="3">Copyright 2020</td>
+
+    </tr>
+  </table>
+
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,335 @@
+<html>
+
+<head>
+
+  <link rel="icon" href="img/edee.png" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      height: 500px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* Caption text */
+    .text {
+      color: #00F;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+
+
+
+
+    table {
+      width: 100%;
+    }
+
+    table,
+    th,
+    td {
+      border: 0px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+    #t01 tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #999;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Historical place</a>
+      <div href="#" class="dropdown-content">
+        <a href="RAMSAGAR.html">RAMSAGAR</a>
+        <a href="KANTAJI.html">KANTAJI TEMPLE</a>
+        <a href="SWAPNOPURI.html">SWAPNOPURI</a>
+        <a href="RAJBARI.html">RAJBARI & SUKH SAGAR</a>
+        <a href="HSTU.html">HSTU</a>
+        <a href="MEDICAL.html">DINAJPUR MEDICAL COLLEGE</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Popular Food</a>
+      <div href="#" class="dropdown-content">
+        <a href="Lichu.html">Lichu</a>
+        <a href="Rice.html">Rice</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <!--<li><img src="img/edee.png" height="50 px" width="auto"></li>-->
+
+  </ul>
+  <br>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/lichu/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/lichu/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/lichu/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/lichu/4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/lichu/5.jpg" style="width:100%">
+    </div>
+
+
+  </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <br>
+
+
+
+
+  <br>
+  <table>
+    <tr>
+      <th colspan="3">
+        <h2>দিনাজপুরের লিচু</h2>
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p align="justify">
+          ঝড়ের দিনে মামার দেশে আম কুড়াতে সুখ, পাকা জামের মধুর রসে রঙিন করি মুখ- পল্লী কবি জসীমউদ্দীনের এ কাব্যকথাগুলো
+          মনে পড়লেই মনটা ছুটে যায় সেই ছোট্ট বেলায়। পাকা ফলের মধুর রস সত্যিই সুন্দর, সুস্বাদু যা মন ও হৃদয়কে জুড়িয়ে
+          দেয়। পল্লীকবির প্রতি শত শ্রদ্ধা রেখেই লিখছি যদি তিনি আমাদের এই দিনাজপুরের সদর উপজেলার মাশিমপুর গ্রামে অথবা
+          বিরল উপজেলায় মাধববাটি গ্রামে জন্মগ্রহণ করতেন তবে অবশ্যই লিচুকে নিয়ে হয় তার একখানা অমর কবিতা লিখতেন এ আমার
+          দৃঢ় বিশ্বাস। সুস্বাদু ও মজাদার এ লিচু দিনাজপুরের বিরল, সদরসহ অন্যান্য বেশ কয়েকটি উপজেলায় আবাদ হচ্ছে।আমরা
+          দিনাজপুরেরর মানুষ এই লিচুকে ভালোবেসে বলি ‘প্রাকৃতিক রসগোল্লা’। স্বাদ আর বর্ণের জন্য দিনাজপুরের লিচুর ব্যাপক
+          চাহিদা। এমনকি নিকট প্রতিবেশী দেশগুলো থেকেও ক্রেতারা আসেন দিনাজপুরের লিচুর বাজারে। বাংলাদেশের লিচু বলতে
+          দিনাজপুরের লিচু অতুলনীয়।
+
+
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <table bgcolor="#CCCCCC">
+    <tr>
+
+      <td colspan="3">Copyright 2020</td>
+
+    </tr>
+  </table>
+
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+</body>
+
+</html>

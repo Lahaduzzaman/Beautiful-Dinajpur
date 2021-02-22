@@ -1,0 +1,355 @@
+<html>
+
+<head>
+
+  <link rel="icon" href="img/edee.png" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      height: 500px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* Caption text */
+    .text {
+      color: #00F;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+
+
+
+
+    table {
+      width: 100%;
+    }
+
+    table,
+    th,
+    td {
+      border: 0px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+    #t01 tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #999;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Historical place</a>
+      <div href="#" class="dropdown-content">
+        <a href="RAMSAGAR.html">RAMSAGAR</a>
+        <a href="KANTAJI.html">KANTAJI TEMPLE</a>
+        <a href="SWAPNOPURI.html">SWAPNOPURI</a>
+        <a href="RAJBARI.html">RAJBARI & SUKH SAGAR</a>
+        <a href="HSTU.html">HSTU</a>
+        <a href="MEDICAL.html">DINAJPUR MEDICAL COLLEGE</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Popular Food</a>
+      <div href="#" class="dropdown-content">
+        <a href="Lichu.html">Lichi</a>
+        <a href="Rice.html">Rice</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <!--<li><img src="img/edee.png" height="50 px" width="auto"></li>-->
+
+  </ul>
+  <br>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/Rajbari_Sukh_Sagar/Rajbari_Sukh_Sagar_1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Rajbari_Sukh_Sagar/Rajbari_Sukh_Sagar_2.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Rajbari_Sukh_Sagar/Rajbari_Sukh_Sagar_3.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Rajbari_Sukh_Sagar/Rajbari_Sukh_Sagar_4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Rajbari_Sukh_Sagar/Rajbari_Sukh_Sagar_5.jpg" style="width:100%">
+    </div>
+
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <br>
+
+
+
+
+  <br>
+  <table>
+    <tr>
+      <th colspan="3">
+        <h2>দিনাজপুর রাজবাড়ি ও সুখসাগর</h2>
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p align="justify">
+          দিনাজপুর রাজবাড়ি বাংলাদেশের রংপুর বিভাগের দিনাজপুর জেলার সদর উত্তর-পূর্ব দিকে অবস্থিত। 'রাজবাটী' গ্রামের
+          সন্নিকটে এই স্থানটি “রাজ বাটিকা” নামে বিশেষভাবে পরিচিত। উল্লেখ্য যে, প্রাচীন এই রাজ বাড়িটির নামেই গ্রামের
+          নামকরন হয়েছে। এটি দিনাজপুর কেন্দ্রীয় বাসটার্মিনাল এর দক্ষিনে অবস্থিত।
+          <br><br>
+          দিনাজপুর রাজবাড়ি রাজা দিনাজ স্থাপন করেন। কিন্তু অনেকের মতামত পঞ্চদশ শতকের প্রথমার্ধে ইলিয়াস শাহীর শাসনামলে
+          সুপরিচিত “রাজা গণেশ” এই বাড়ির স্থপতি। সপ্তদশ শতাব্দীর শেষের দিকে শ্রীমন্ত দত্ত চৌধুরী দিনাজপুরের জমিদার হন।
+          কিন্তু শ্রীমন্ত দত্ত চৌধুরীর ছেলের অকাল মৃত্যুর হওয়াতে, তার ভাগ্নে “সুখদেব ঘোষ” তার সম্পত্তির উত্তরাধিকার হন।
+          <br><br>
+          আসলে বর্তমানে দিনাজপুর রাজবাড়ি বলতে এর অবশিষ্টাংশকে বুঝায়। এর বেশিরভাগ অংশ ধ্বংস হয়ে গেছে। শুধু গুটিকয়েক
+          স্থাপনা এখন বিদ্যমান। রাজবাড়ির প্রবেশ পথে পশ্চিমমুখী একটি মিনার আকৃতির বিশাল তৌরণ আছে। রাজবাড়ির সীমানার
+          মধ্যে তৌরণের কিছু দূরে বামদিকে একটি উজ্জ্বল রঙ করা কৃষ্ণ মন্দির এবং ডানদিকে রাজবাড়ির বহিঃমহলের কিছু
+          ধ্বংসাবশেষ আছে। রাজবাড়ির সীমানার ভেতরে আরকটি তৌরণ আছে, যার মাধ্যমে রাজবাড়ির প্রধান বর্গাকার অংশে প্রবেশ করা
+          হয়। রাজবাড়ির প্রধান অংশের পূর্বদিকে আরেকটি সমতল ছাদবিশিষ্ট মন্দির আছে। যার মধ্যে অনেক হিন্দু দেবতার প্রতিমা
+          বিদ্যমান।
+
+          রাজবাড়ি প্রধানত তিনটি মহল বা ব্লকের সমন্বয়ে গঠিত, যথাক্রমেঃ আয়না মহল, রাণি মহল ও ঠাকুরবাটি মহল। এর পাশাপাশি
+          আরো কিছু অপ্রধান কিছু স্থাপনা আছে। যা জমিদার পরিবারের বিভিন্ন রাজা ও উত্তরাধিকার কর্তৃক বিভিন্ন সময়ে
+          প্রতিষ্ঠিত। এই রাজবাড়ির সীমানায় আরো কিছু মন্দির, বিশ্রামাগার, দাতব্য চিকিৎসালয়, পানির ট্যাঙ্ক ও আমলাদের
+          বাসস্থান স্থাপিত হয়। দিনাজপুর রাজবাড়ির ভূমির মোট আয়তন ১৬.৪১ একর যার মধ্যে পূর্ব ও পশ্চিম দিকে ২ বৃহৎ পানির
+          চৌবাচ্চা/ট্যাঙ্ক, মঠ, বাগান, কাঁচারী ঘর, টেনিস কোর্ট ও কুমারের বাড়ি অন্তর্ভুক্ত। এছাড়া রাজবাড়ির মুল অংশে
+          দুইটি পুকুর রয়েছে, যার একটি রানিপুকুর নামে পরিচিত। এবং রাজবাড়ির পিছনে আরো দুইটি বিশালাকৃতির পুকুর (পদ্মপুকুর
+          ও সুখসাগর) রয়েছে। রাজবাড়ির 'হিরাবাগান'নামে একটি মাঠ রয়েছে। বর্তমানে রাজবাড়িটিকে দুইটি অংশে ভাগ করা হয়েছে।
+          সামনের অংশ অর্থাৎ মন্দির অংশে প্রতিবছর ধর্মীয় ভাবভঙ্গীমায় কান্তজিওঁ ও দুর্গাপুজা করা হয়। এই অংশটি
+          'রাজদেবত্তর এস্টেট' নামে মন্দির কমিটির দ্বারা সংরক্ষণ করা হয়েছে। অপর অংশটি অর্থ্যাৎ আয়নামহল ও রানিমহল
+          ধ্বংসপ্রায় অবস্থায় রয়েছে যেখানে প্রাচীন স্থাপত্যশৈলী ও কারুকার্য এখনও দেখা যায়। লোহার তৈরী কলাম ও বীম গুলো
+          চুরি হয়ে গিয়েছে। পুরো জায়গাটি বৃহদাকার আম,জাম,লিচু,কাঠাল ও অন্যান্য জংলী গাছ দ্বারা আবৃত। পাশেই বাংলাদেশ
+          সরকার পরিচালিত সরকারি এতিমখানা 'শিশুপরিবার' রয়েছে। ইতিপূর্বে মহান জাতীয় সংসদের মাননীয় হুইপ জনাব ইকবালুর
+          রহিমের পৃষ্ঠপোষকতায় শিশুপরিবারের জন্য একটি অত্যাধুনিক ও দৃষ্টিনন্দন চারতলা ইমারত ও একটি বৃদ্ধাশ্রম নির্মান
+          করা হয়েছে। রানিপুকুরের পাশে একটি পুরোনো দ্বিতল বিল্ডিং শিশুপরিবারের শিক্ষক-কর্মচারীদের কোয়ার্টার হিসেবে
+          ব্যাবহৃত হয়।
+
+          এই বিশাল রাজবাড়িটি একটি আকর্ষণীয় ঐতিহাসিক ঐতিহ্য। যা প্রত্নতাত্ত্বিক গবেষনা ও টুরিজম স্পট হতে পারে। কিন্তু
+          এটি বাংলাদেশ সরকারের প্রত্নতত্ত্ব বিভাগ কর্তৃক কর্তৃক স্বীকৃত নয়। তাই এই বিশাল স্থাপনাটি অযত্নে অবহেলায়
+          ধ্বংস হয়ে যাচ্ছে। জনগণ সাধারণত এই স্থানে আবর্জনা ফেলায় এর বিদ্যামান অংশও ধ্বংসপ্রায়। অবিলম্বে স্থাপনাটি
+          সংরক্ষণ না করা হলে এটি কালের গর্ভে বিলিন হয়ে যাবে।
+          <br><br>
+
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <table bgcolor="#CCCCCC">
+    <tr>
+
+      <td colspan="3">Copyright 2020</td>
+
+    </tr>
+  </table>
+
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+</body>
+
+</html>

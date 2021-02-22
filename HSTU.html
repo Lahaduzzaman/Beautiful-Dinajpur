@@ -1,0 +1,346 @@
+<html>
+
+<head>
+
+  <link rel="icon" href="img/edee.png" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      height: 500px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* Caption text */
+    .text {
+      color: #00F;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+
+
+
+
+    table {
+      width: 100%;
+    }
+
+    table,
+    th,
+    td {
+      border: 0px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+    #t01 tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #999;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Historical place</a>
+      <div href="#" class="dropdown-content">
+        <a href="RAMSAGAR.html">RAMSAGAR</a>
+        <a href="KANTAJI.html">KANTAJI TEMPLE</a>
+        <a href="SWAPNOPURI.html">SWAPNOPURI</a>
+        <a href="RAJBARI.html">RAJBARI & SUKH SAGAR</a>
+        <a href="HSTU.html">HSTU</a>
+        <a href="MEDICAL.html">DINAJPUR MEDICAL COLLEGE</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Popular Food</a>
+      <div href="#" class="dropdown-content">
+        <a href="Lichu.html">Lichu</a>
+        <a href="Rice.html">Rice</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <!--<li><img src="img/edee.png" height="50 px" width="auto"></li>-->
+
+  </ul>
+  <br>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/HSTU/HSTU_1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/HSTU/HSTU_2.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/HSTU/HSTU_3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/HSTU/HSTU_4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/HSTU/HSTU_5.jpg" style="width:100%">
+    </div>
+
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <br>
+
+
+
+
+  <br>
+  <table>
+    <tr>
+      <th colspan="3">
+        <h2>হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়</h2>
+      </th>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p align="justify">
+          হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ের যাত্রা শুরু ১৯৭৬ সালে এগ্রিকালচারাল এক্সটেনশন ট্রেনিং
+          ইনিস্টিটিউট (AETI) হিসেবে যা কৃষিতে ডিপ্লোমা ডিগ্রী প্রদান করতো। ১৯৮৮ সালের ১১ নভেম্বর এটিকে স্নাতক পর্যায়ে
+          কৃষি কলেজে উন্নীত করা হয়। এটি তখন বাংলাদেশ কৃষি বিশ্ববিদ্যালয়, ময়মনসিংহ এর অধিভুক্ত কলেজ ছিল। ১১ সেপ্টেম্বর
+          ১৯৯৯ এই কলেজকে বিশ্ববিদ্যালয় করার ঘোষণা দেয়া হয়। এটিই বিশ্ববিদ্যালয় দিবস। ২০০০ সালে কলেজটিকে
+          বিশ্ববিদ্যালয়ে উন্নীত করার লক্ষে “বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় স্থাপন প্রকল্প” গ্রহণ করা হয়। ৮ জুলাই
+          ২০০১ হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় আইন পাশ করা হয়। ২০০২ সালের ৮ এপ্রিল মহামান্য
+          রাষ্ট্রপতি প্রজ্ঞাপন জারির মাধ্যমে বিশ্ববিদ্যালয় স্থাপিত হয়। ১৬ই এপ্রিল আনুষ্ঠানিক শিক্ষা কার্যক্রম শুরু
+          হয়। বিশিষ্ট মৃত্তিকা বিজ্ঞানী প্রফেসর ড: মো: মোশাররফ হোসাইন মিঞাঁ এ বিশ্ববিদ্যালয়ের প্রথম উপাচার্য। এটি
+          উত্তরবঙ্গ তথা রংপুর বিভাগের প্রথম বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়। এ বিশ্ববিদ্যালয়ের শিক্ষার মাধ্যম
+          ইংরেজি। কোর্স-ক্রেডিট-সেমিস্টার পদ্ধতিতে পরিচালিত । বর্তমানে ৯ টি অনুষদের অধীনে ২৩ টি বিষয়ে সনদ প্রদান করা
+          হয়, এর মধ্যে স্নাতক পর্যায়ে ৮ টি অনুষদে ২২ টি বিষয় এবং স্নাতকোত্তর পর্যায়ে একটি অনুষদে ২৮ টি বিষয় রয়েছে।
+          বর্তমানে ক্যাম্পাসের আয়তন ১৩৫ একর।
+          <br><br>
+          ক্যাম্পাস এর পাশেই ঢাকা -দিনাজপুর মহাসড়ক অবস্থিত ৷ দিনাজপুর শহর হতে ক্যাম্পাস এর দূরত্ব মাত্র ১০ কি.মি.। এ
+          বিশ্ববিদ্যালয়ে রয়েছে সবুজ গাছপালার সমারোহ। আছে লাল-সাদা ইটের দৃষ্টিনন্দন সুবিশাল ভবন, আছে শহীদদের স্মরণে
+          শহীদ মিনার, জিমন্যাশিয়াম, টিএসসি, ক্যান্টিন আছে। অবকাঠামোর মধ্যে রয়েছে বৃহৎ কেন্দ্রীয় জামে মসজিদ,
+          কেন্দ্রীয় শহীদ মিনার, ৫টি অ্যাকাডেমিক ভবন, একটি প্রশাসনিক ভবন, ৫টি ছাত্র হোস্টেল(একটি বিদেশী শিক্ষার্থীদের),
+          ৩টি ছাত্রী হোস্টেল, আধুনিক সাজসজ্জা বিশিষ্ট ১০০ আসনের একটি ভিআইপি সেমিনার কক্ষ, ৬০০ ও ২৫০ আসন বিশিষ্ট আরও দুটি
+          শীতাতপ নিয়ন্ত্রিত অডিটরিয়াম। এছাড়াও একটি বিশ্ববিদ্যালয়কে পূর্ণাঙ্গ করতে রয়েছে শিক্ষক-কর্মকর্তা ও
+          কর্মচারীদের ক্লাব,২টি মসজিদ, ১৩৬টি আবাসিক ইউনিট/ভবন,১টি শিশুপার্ক, পোষ্ট অফিস, রূপালী ব্যাংক শাখা, মেঘনা
+          ব্যাংক শাখা, শ্রমিক ব্যারাক, সার্বাক্ষণিক ইন্টারনেট সুবিধা, নিজস্ব বৈদ্যুতিক লাইন,বৃহৎ খেলার মাঠ,
+          ইঞ্জিনিয়ারিং ওয়ার্কশপ এবং ছাত্র-ছাত্রীদের জন্য বিশ্ববিদ্যালয়ের নিজস্ব পরিবহন ব্যবস্থা। গবেষণা ও প্রশিক্ষণের
+          সমন্বয় ও সুষ্ঠুভাবে পরিচালনার জন্য ইনস্টিটিউট অব রিসার্চ এন্ড ট্রেনিং (আই.আর.টি.)। আছে একটি ভি. আই. পি গেস্ট
+          হাউস, হাবিপ্রবি স্কুল, ডাক্তার ও এ্যাম্বুলেন্সসহ ১২ শয্যার একটি মেডিক্যাল সেন্টারও। গবেষণালব্ধ থিসিস, রিপোর্ট,
+          জার্নালের পাশাপাশি রয়েছে ২৫ হাজার বইয়ের সমৃদ্ধ লাইব্রেরি। দুষ্প্রাপ্য গাছ-গাছালির আকর্ষণীয় সংগ্রহ নিয়ে
+          গড়ে উঠেছে একটি সমৃদ্ধ বোটানিক্যাল গার্ডেন এবং বিভিন্ন বিভাগের তত্ত্বাবধানে গবেষণার জন্য জামপর্স্নাজম সেন্টার।
+          <br><br>
+
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <table bgcolor="#CCCCCC">
+    <tr>
+
+      <td colspan="3">Copyright 2020</td>
+
+    </tr>
+  </table>
+
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+</body>
+
+</html>
